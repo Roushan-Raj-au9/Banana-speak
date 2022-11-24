@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 
 
 * {
@@ -6,15 +8,16 @@
 }
 
 :root {
-    --primary: #F2C94C;
+    --primary: #5b9556;
     --black: #333333;
     --width-break:600px
 }
 
 body {
     margin: 0;
-    font-family: 'Kalam', cursive;
-    color: #333333;
+    /* font-family: 'Kalam', cursive; */
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
 }
 
 nav {
@@ -62,6 +65,7 @@ button {
     overflow:scroll;
     border: 1px solid var(--black);
     padding: 0.5rem;
+    color: #333333;
 }
 
 footer {
@@ -76,4 +80,8 @@ footer {
 footer p {
     max-width: var(--width-break);
     margin: auto;
+}
+
+.output_conatiner{
+    color: #333333;
 }
